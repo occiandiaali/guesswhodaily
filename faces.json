@@ -1,0 +1,515 @@
+{
+  "science": [
+    {
+      "name": "isaac newton",
+      "img": "/images/isaac_newton.jpg",
+      "hints": [
+        {
+          "q": "Widely regarded as one of the most influential scientists of all time",
+          "a": true
+        },
+        {
+          "q": "His father died 3 months before he was born, in 1643",
+          "a": true
+        },
+        { "q": "Came up with laws of motion", "a": true },
+        { "q": "He married his childhood sweetheart", "a": false },
+        {
+          "q": "His mother withdrew him from school, so that he could work as a farmer",
+          "a": true
+        },
+        { "q": "He and his step-father were very close", "a": false }
+      ],
+      "article": "https://biographyonline.net/scientists/isaac-newton.html"
+    },
+    {
+      "name": "marie curie",
+      "img": "/images/marie-curie.jpg",
+      "hints": [
+        {
+          "q": "Polish and naturalised-French physicist and chemist",
+          "a": true
+        },
+        {
+          "q": "Shared the 1903 Nobel Prize in Physics with her husband",
+          "a": true
+        },
+        { "q": "The first person to win a Nobel Prize twice", "a": true },
+        { "q": "The third woman to win a Nobel Prize", "a": false },
+        { "q": "She coined the term 'radioactivity'", "a": true },
+        {
+          "q": "Contested in the 1905 Polish presidential elections",
+          "a": false
+        }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Marie_Curie"
+    },
+    {
+      "name": "stephen hawking",
+      "img": "/images/hawking.jpg",
+      "hints": [
+        {
+          "q": "Male, born in 1942, English Physicist, was first to offer a theory of cosmology",
+          "a": true
+        },
+        {
+          "q": "He has portrayed himself on TV shows like The Simpsons and Star Trek",
+          "a": true
+        },
+        { "q": "Talked alot about black holes", "a": true },
+        { "q": "Because of his ailment, he never married", "a": false },
+        {
+          "q": "He was struck by motor-neuron disease for decades, and turned down a knighthood",
+          "a": true
+        },
+        {
+          "q": "At one stage,doctors gave him at least 10 years to live after his diagnosis",
+          "a": false
+        }
+      ],
+      "article": "https://biographyonline.net/scientists/stephen-hawking.html"
+    },
+    {
+      "name": "albert einstein",
+      "img": "/images/einstein.jpg",
+      "hints": [
+        { "q": "Was awarded the Nobel prize in Physics in 1921", "a": true },
+        { "q": "Was born in Ulm (the German Empire) in 1879", "a": true },
+        { "q": "Suffered stomach pains most his adult life", "a": true },
+        { "q": "Was a Communist", "a": false },
+        { "q": "Had a thick file on him kept by the FBI", "a": true },
+        { "q": "All his teachers loved him", "a": false }
+      ],
+      "article": "https://biographyonline.net/scientists/albert-einstein.html"
+    },
+    {
+      "name": "nikola tesla",
+      "img": "/images/tesla.png",
+      "hints": [
+        { "q": "Born in 1856 in the Austrian Empire", "a": true },
+        { "q": "Never married & died alone, in a hotel room", "a": true },
+        { "q": "Came up with alternating current", "a": true },
+        { "q": "Never dropped out of school", "a": false },
+        {
+          "q": "Worked digging ditches for the Edison telephone company",
+          "a": true
+        },
+        { "q": "Became an American citizen in 1959", "a": false }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Nikola_Tesla"
+    },
+    {
+      "name": "george washington carver",
+      "img": "/images/george-carver.jpg",
+      "hints": [
+        { "q": "Was born into slavery", "a": true },
+        { "q": "Became a famous botanist/inventor", "a": true },
+        { "q": "Tried his hand at stand-up comedy as a student", "a": false },
+        { "q": "Was a Communist", "a": false },
+        { "q": "Discovered more than 300 uses for the peanut", "a": true },
+        { "q": "Did not invent peanut butter", "a": true }
+      ],
+      "article": "https://en.wikipedia.org/wiki/George_Washington_Carver"
+    }
+  ],
+  "movies": [
+    {
+      "name": "arnold schwarzenegger",
+      "img": "/images/arnold.jpg",
+      "hints": [
+        {
+          "q": "Austrian/American professional body-builder, actor, and politician",
+          "a": true
+        },
+        {
+          "q": "Began lifting weights at the age of 15 and won the Mr. Universe bodybuilding championship at the age of 20",
+          "a": true
+        },
+        {
+          "q": "His father, Gustav, was the local chief of police in their Austria hometown",
+          "a": true
+        },
+        { "q": "Has never been married", "a": false },
+        {
+          "q": "His breakthrough movie role came in 1982-as a Barbarian",
+          "a": true
+        },
+        { "q": "Born in Hong Kong & raised in San Francisco", "a": false }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Arnold_Schwarzenegger"
+    },
+    {
+      "name": "julia roberts",
+      "img": "/images/julia-roberts.jpg",
+      "hints": [
+        { "q": "Her middle name is Fiona", "a": true },
+        {
+          "q": "Won an Oscar award in 2000 for playing Erin Brockovich",
+          "a": true
+        },
+        { "q": "She was raised a Moslem", "a": false },
+        {
+          "q": "American actress who first appeared on TV as a juvenile rape victim",
+          "a": true
+        },
+        { "q": "Has never been married", "a": false },
+        {
+          "q": "Became the first actress to be paid $20 million for a film",
+          "a": true
+        }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Julia_Roberts"
+    },
+    {
+      "name": "eddie murphy",
+      "img": "/images/eddie-murph.jpg",
+      "hints": [
+        { "q": "Black-American actor/comedian/singer", "a": true },
+        { "q": "Won a Grammy award in 1983", "a": true },
+        { "q": "Shot to fame on SNL in 1978", "a": false },
+        { "q": "Lived in foster care for a year", "a": true },
+        { "q": "Has never been married", "a": false },
+        { "q": "His father was murdered in 1969", "a": true }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Eddie_Murphy"
+    },
+    {
+      "name": "denzel washington",
+      "img": "/images/denzel.jpg",
+      "hints": [
+        { "q": "Black-American actor, producer, director", "a": true },
+        { "q": "Multi-Oscar winner", "a": true },
+        { "q": "first black male to ever win an Oscar", "a": false },
+        { "q": "Is a Pentecostal minister", "a": true },
+        {
+          "q": "His mother deliberately pronounced his name wrongly",
+          "a": true
+        },
+        { "q": "Owns a full plot of land in Enugu state, Nigeria", "a": false }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Denzel_Washington"
+    },
+
+    {
+      "name": "bruce lee",
+      "img": "/images/bruce-lee.jpg",
+      "hints": [
+        { "q": "Martial Arts icon & actor", "a": true },
+        {
+          "q": "His actor son also died mysteriously while filming",
+          "a": true
+        },
+        { "q": "Created his own form of Martial Arts", "a": true },
+        { "q": "Taught Chuck Norris & Kareem Abdul-Jabbar", "a": true },
+        {
+          "q": "His daughter also died mysteriously while filming",
+          "a": false
+        },
+        { "q": "Born in Hong Kong & raised in San Francisco", "a": false }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Bruce_Lee"
+    }
+  ],
+  "music": [
+    {
+      "name": "fela kuti",
+      "img": "/images/fela.jpg",
+      "hints": [
+        { "q": "Male, Nigerian musician and political activist", "a": true },
+        { "q": "In 1978, he married 27 women", "a": true },
+        {
+          "q": "Regarded as the principal innovator of Afrobeat music",
+          "a": true
+        },
+        {
+          "q": "His songs were mostly performed in the French language",
+          "a": false
+        },
+        {
+          "q": "His mother was an anti-colonial feminist, and his father was an Anglican minister",
+          "a": true
+        },
+        {
+          "q": "He was awarded a Grammy award for Song of the Year, in 1985",
+          "a": false
+        }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Fela_Kuti"
+    },
+    {
+      "name": "freddie mercury",
+      "img": "/images/freddy-mercury.jpg",
+      "hints": [
+        { "q": "British singer, real name Farrokh Bulsara", "a": true },
+        { "q": "Had a 3-octave vocal range", "a": false },
+        { "q": "Died from AIDS complications in 1992", "a": false },
+        { "q": "Lead singer of Queen", "a": true },
+        { "q": "Born in Zanzibar", "a": true },
+        { "q": "Was bisexual", "a": true }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Freddie_Mercury"
+    },
+    {
+      "name": "kanye west",
+      "img": "/images/kanye.jpg",
+      "hints": [
+        { "q": "Briefly became a billionaire through Fashion", "a": true },
+        { "q": "Had the highest selling album in history", "a": false },
+        { "q": "Was a communist", "a": false },
+        { "q": "Multi-Grammy-winning music producer/rapper", "a": true },
+        { "q": "Married a wife because of her sex-tape", "a": true },
+        { "q": "Recorded a song in praise of Hitler", "a": true }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Kanye_West"
+    },
+    {
+      "name": "the beatles",
+      "img": "/images/beatles.jpg",
+      "hints": [
+        { "q": "4-man English rock band, formed in 1960", "a": true },
+        {
+          "q": "Have the 2nd most number-one singles on the US Billboard Hot 100",
+          "a": false
+        },
+        {
+          "q": "Three of the original bandmates were in their early 30s when they started",
+          "a": false
+        },
+        {
+          "q": "Starred in the 1964 musical comedy, 'A Hard Days Night'",
+          "a": true
+        },
+        { "q": "One band member died in 1980, another in 2001", "a": true },
+        {
+          "q": "The 11th (and last) album they recorded had something to do with Abbey Road",
+          "a": true
+        }
+      ],
+      "article": "https://en.wikipedia.org/wiki/The_Beatles"
+    },
+    {
+      "name": "michael jackson",
+      "img": "/images/mike-jack.jpg",
+      "hints": [
+        { "q": "Multi-Grammy-winning music icon", "a": true },
+        { "q": "Became a millionaire before the age of 21", "a": true },
+        { "q": "Recorded the highest selling album in history", "a": true },
+        { "q": "Visited all the countries in the world", "a": false },
+        { "q": "Could sing, dance, and act", "a": true },
+        { "q": "Ran the New York marathon at 16", "a": false }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Michael_Jackson"
+    },
+    {
+      "name": "sunny ade",
+      "img": "/images/sunny_ade.jpg",
+      "hints": [
+        {
+          "q": "Male, Nigerian singer, songwriter & multi-instrumentalist",
+          "a": true
+        },
+        {
+          "q": "Regarded as one of the first African pop musicians to gain international success",
+          "a": true
+        },
+        {
+          "q": "His 1983 album earned him a Grammy nomination-a first for a Nigerian act",
+          "a": true
+        },
+        {
+          "q": "Was called a 'King', even though he wasn't royalty",
+          "a": false
+        },
+        {
+          "q": "His music was featured in a 1983 film starring Richard Gere",
+          "a": true
+        },
+        { "q": "Ran the New York marathon at 16", "a": false }
+      ],
+      "article": "https://en.wikipedia.org/wiki/King_Sunny_Ad%C3%A9"
+    }
+  ],
+  "history": [
+    {
+      "name": "amelia earhart",
+      "img": "/images/earhart.jpg",
+      "hints": [
+        {
+          "q": "Female, American aviator and aviation pioneer who became one of the most celebrated figures of early flight",
+          "a": true
+        },
+        { "q": "Was a best-selling author", "a": true },
+        {
+          "q": "As a child, spent hours climbing trees, hunting rats with a rifle, and sledding downhill",
+          "a": true
+        },
+        { "q": "Was a race-car driver in the US in the 1920s", "a": false },
+        {
+          "q": "In 1932, became the first woman to make a nonstop, solo, transatlantic flight",
+          "a": true
+        },
+        { "q": "Died at 61 years of age in her sister's arms", "a": false }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Amelia_Earhart"
+    },
+    {
+      "name": "abraham lincoln",
+      "img": "/images/lincoln.png",
+      "hints": [
+        { "q": "The 16th US President", "a": true },
+        { "q": "Born in France", "a": false },
+        { "q": "Assassinated in 1865", "a": true },
+        { "q": "Once owned slaves", "a": true },
+        { "q": "Often seen wearing a top hat", "a": true },
+        { "q": "Played cricket with the Sultan of Brunei", "a": false }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+    },
+    {
+      "name": "nelson mandela",
+      "img": "/images/mandela.jpg",
+      "hints": [
+        { "q": "Trained and practiced as a Lawyer", "a": true },
+        { "q": "First black president of South Africa", "a": true },
+        { "q": "Co-starred in Driving Miss Daisy", "a": false },
+        { "q": "Loved boxing", "a": true },
+        { "q": "Discovered River Niger while sailing a boat", "a": false },
+        { "q": "Spent 27 years in prison", "a": true }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Nelson_Mandela"
+    }
+  ],
+  "leaders": [
+    {
+      "name": "patrice lumumba",
+      "img": "/images/lumumba.jpg",
+      "hints": [
+        { "q": "Iconic, male, African leader", "a": true },
+        {
+          "q": "First prime minister of the First Congolese Republic",
+          "a": true
+        },
+        { "q": "Was assassinated at just 35", "a": true },
+        { "q": "Was a painfully shy young man", "a": false },
+        {
+          "q": "Born on 2 July 1925, his original surname meant 'heir of the cursed.'",
+          "a": true
+        },
+        { "q": "Raised in a Moslem family", "a": false }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Patrice_Lumumba"
+    },
+    {
+      "name": "kofi annan",
+      "img": "/images/kofi-annan.jpg",
+      "hints": [
+        { "q": "Ghanaian diplomat and statesman", "a": true },
+        { "q": "Won the 2001 Nobel Peace Prize", "a": true },
+        {
+          "q": "His name in his local dialect corresponds to the name of the day on which he was born. Friday.",
+          "a": true
+        },
+        { "q": "He lived to the age of 102", "a": false },
+        { "q": "He has said that his surname rhymes with 'cannon'", "a": true },
+        {
+          "q": "During the 1994 Rwanda genocide, he singlehandedly acted to save more than 100 thousand people. ",
+          "a": false
+        }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Kofi_Annan"
+    },
+    {
+      "name": "abraham lincoln",
+      "img": "/images/lincoln.png",
+      "hints": [
+        { "q": "The 16th US President", "a": true },
+        { "q": "Born in France", "a": false },
+        { "q": "Assassinated in 1865", "a": true },
+        { "q": "Once owned slaves", "a": true },
+        { "q": "Often seen wearing a top hat", "a": true },
+        { "q": "Played cricket with the Sultan of Brunei", "a": false }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Abraham_Lincoln"
+    },
+    {
+      "name": "nelson mandela",
+      "img": "/images/mandela.jpg",
+      "hints": [
+        { "q": "Trained and practiced as a Lawyer", "a": true },
+        { "q": "First black president of South Africa", "a": true },
+        { "q": "Co-starred in Driving Miss Daisy", "a": false },
+        { "q": "Loved boxing", "a": true },
+        { "q": "Discovered River Niger while sailing a boat", "a": false },
+        { "q": "Spent 27 years in prison", "a": true }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Nelson_Mandela"
+    },
+    {
+      "name": "nnamdi azikiwe",
+      "img": "/images/azikiwe.jpg",
+      "hints": [
+        { "q": "Spoke 3 major Nigerian languages", "a": true },
+        { "q": "Studied in the US", "a": true },
+        { "q": "Journalist, and first Nigerian president", "a": true },
+        { "q": "Was a race-car driver in the US in the 1920s", "a": false },
+        { "q": "Known as Zik of Africa", "a": true },
+        { "q": "Died at 51 years of age", "a": false }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Nnamdi_Azikiwe"
+    }
+  ],
+  "sports": [
+    {
+      "name": "muhammad ali",
+      "img": "/images/ali.jpg",
+      "hints": [
+        { "q": "Married only once", "a": false },
+        { "q": "An Olympic & World Champion boxer", "a": true },
+        { "q": "Won the World Heavyweight boxing title 6 times", "a": false },
+        { "q": "Failed the US Army qualifying test in 1964", "a": true },
+        { "q": "Was named 'Sportsman of the century' in 1990", "a": true },
+        { "q": "Defeated Big George Foreman in Africa", "a": true }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Muhammad_Ali"
+    },
+    {
+      "name": "michael jordan",
+      "img": "/images/mike-jordan.jpg",
+      "hints": [
+        { "q": "Basketball legend, active in the 1980s & 1990s", "a": true },
+        { "q": "Won 6 NBA titles", "a": true },
+        { "q": "Played lead guitar in Queen", "a": false },
+        { "q": "Is less than 6 feet tall", "a": false },
+        { "q": "Loves Golf", "a": true },
+        { "q": "Played in Major League Baseball", "a": true }
+      ],
+      "article": "https://biographyonline.net/sport/michael-jordan.html"
+    },
+    {
+      "name": "serena williams",
+      "img": "/images/serena.jpg",
+      "hints": [
+        { "q": "Married a tech co-founder", "a": true },
+        { "q": "Women's Tennis champion", "a": true },
+        { "q": "Her elder sister is also a Tennis champion", "a": true },
+        { "q": "Works as a pert-time nun", "a": false },
+        { "q": "Won 23 Grand Slam titles", "a": true },
+        { "q": "Founded Spandex", "a": false }
+      ],
+      "article": "https://www.biography.com/athletes/serena-williams"
+    },
+    {
+      "name": "lionel messi",
+      "img": "/images/messi.jpg",
+      "hints": [
+        { "q": "Dimunitive football superstar", "a": true },
+        { "q": "Played for Barcelona FC", "a": true },
+        { "q": "Won most Ballon D'or titles", "a": true },
+        { "q": "Speaks 8 African languages", "a": false },
+        { "q": "Was born in Rosario, Argentina", "a": true },
+        { "q": "Released a Rap music mixtape", "a": false }
+      ],
+      "article": "https://biographyonline.net/sport/football/lionel-messi.html"
+    }
+  ]
+}
