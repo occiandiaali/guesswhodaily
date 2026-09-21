@@ -36,14 +36,29 @@
       }
     </style>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EGF4MVYT4Q"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-EGF4MVYT4Q"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'G-EGF4MVYT4Q');
+    </script> -->
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+
+        var savedConsent = localStorage.getItem('gwd_cookie_consent');
+
+        gtag('consent', 'default', {
+            'analytics_storage': savedConsent === 'accepted' ? 'granted' : 'denied',
+            'ad_storage': savedConsent === 'accepted' ? 'granted' : 'denied',
+            'ad_user_data': savedConsent === 'accepted' ? 'granted' : 'denied',
+            'ad_personalization': savedConsent === 'accepted' ? 'granted' : 'denied',
+            'wait_for_update': 500
+        });
     </script>
+
   </head>
   <body
     class="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans selection:bg-emerald-500/30"
@@ -227,6 +242,16 @@
           </p>
         </section>
       </div>
+        <!-- GA4 Banner HTML Markup -->
+    <div id="cookie-consent-banner" style="display: none; position: fixed; bottom: 20px; right: 20px; max-width: 400px; background: #222; color: #fff; padding: 16px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); z-index: 9999;">
+        <p style="margin: 0 0 12px 0; font-size: 13px; line-height: 1.4;">
+            We use cookies to measure usage and improve GuessWhoDaily. You can accept or decline non-essential cookies.
+        </p>
+        <div style="display: flex; gap: 8px; justify-content: flex-end;">
+            <button class="btn btn-sm btn-outline-light" id="decline-cookies">Decline</button>
+            <button class="btn btn-sm btn-success" id="accept-cookies">Accept</button>
+        </div>
+    </div>  
     </main>
 
     <div
@@ -923,5 +948,57 @@
           if (e.key === "Enter") submitGuess();
         });
     </script>
+      <!-- Event Listeners & GA4 Script Injection -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var banner = document.getElementById('cookie-consent-banner');
+            var consent = localStorage.getItem('gwd_cookie_consent');
+
+            loadGA4();
+
+            if (!consent) {
+                banner.style.display = 'block';
+            }
+
+            document.getElementById('accept-cookies').onclick = function() {
+                localStorage.setItem('gwd_cookie_consent', 'accepted');
+                banner.style.display = 'none';
+
+                gtag('consent', 'update', {
+                    'analytics_storage': 'granted',
+                    'ad_storage': 'granted',
+                    'ad_user_data': 'granted',
+                    'ad_personalization': 'granted'
+                });
+            };
+
+            document.getElementById('decline-cookies').onclick = function() {
+                localStorage.setItem('gwd_cookie_consent', 'declined');
+                banner.style.display = 'none';
+
+                gtag('consent', 'update', {
+                    'analytics_storage': 'denied',
+                    'ad_storage': 'denied',
+                    'ad_user_data': 'denied',
+                    'ad_personalization': 'denied'
+                });
+            };
+        });
+
+        function loadGA4() {
+            if (window.ga4Loaded) return;
+            window.ga4Loaded = true;
+
+            var gaId = 'G-EGF4MVYT4Q'; // measurement ID when approved
+
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = "https://www.googletagmanager.com/gtag/js?id=" + gaId;
+            document.head.appendChild(script);
+
+            gtag('js', new Date());
+            gtag('config', gaId);
+        }
+    </script>  
   </body>
 </html>
