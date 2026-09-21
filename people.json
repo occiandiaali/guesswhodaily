@@ -251,7 +251,7 @@
         { "q": "Married a tech co-founder", "a": true },
         { "q": "Women's Tennis champion", "a": true },
         { "q": "Her elder sister is also a Tennis champion", "a": true },
-        { "q": "Works as a pert-time nun", "a": false },
+        { "q": "Works as a part-time girls guide", "a": false },
         { "q": "Won 23 Grand Slam titles", "a": true },
         { "q": "Founded Spandex", "a": false }
       ],
@@ -306,7 +306,26 @@
       ],
       "article": "https://en.wikipedia.org/wiki/Julia_Roberts"
     },
-
+    {
+      "category": "sports",
+      "name": "lewis hamilton",
+      "img": "/images/lewis_hamilton.jpg",
+      "hints": [
+        { "q": "Black-Brit, born and raised in Stevenage", "a": true },
+        {
+          "q": "Holds the records for most wins, pole positions, and podium finishes in Formula One racing",
+          "a": true
+        },
+        {
+          "q": "Was listed in the 2020 issue of Time as one of the 100 most influential people globally,",
+          "a": true
+        },
+        { "q": "Works as a part-time deejay", "a": false },
+        { "q": "Started racing at the age of 6", "a": true },
+        { "q": "Was knighted by King Charles", "a": false }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Lewis_Hamilton"
+    },
     {
       "category": "music",
       "name": "kanye west",
@@ -320,6 +339,29 @@
         { "q": "Recorded a song in praise of Hitler", "a": true }
       ],
       "article": "https://en.wikipedia.org/wiki/Kanye_West"
+    },
+    {
+      "category": "leaders",
+      "name": "thomas sankara",
+      "img": "/images/thomas_sankara.jpg",
+      "hints": [
+        {
+          "q": "First president of the 'land of the upright people'",
+          "a": true
+        },
+        {
+          "q": "Refused to use his office's air conditioning to reduce costs",
+          "a": true
+        },
+        {
+          "q": "As a child, initially agreed to become a Catholic priest, then changed his mind for a military career instead",
+          "a": true
+        },
+        { "q": "Gained a bad reputation as a misogynist", "a": false },
+        { "q": "Was buried in an unmarked grave", "a": true },
+        { "q": "Was killed by his arch nemesis", "a": false }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Thomas_Sankara"
     },
 
     {
