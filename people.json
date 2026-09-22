@@ -1,6 +1,32 @@
 {
   "people": [
     {
+      "category": "science",
+      "name": "ada lovelace",
+      "img": "/images/ada_lovelace.jpg",
+      "hints": [
+        {
+          "q": "Female, English mathematician, writer, and first computer programmer",
+          "a": true
+        },
+        {
+          "q": "The only legitimate child of the poet Lord Byron",
+          "a": true
+        },
+        {
+          "q": "She used Michael Faraday and Charles Dickens to further her education",
+          "a": true
+        },
+        { "q": "Her father was so proud and pleased at her birth", "a": false },
+        { "q": "Her mother referred to her as 'it'", "a": true },
+        {
+          "q": "She died at the age of seventeen from liver disease after consuming much alcohol",
+          "a": false
+        }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+    },
+    {
       "category": "music",
       "name": "michael jackson",
       "img": "/images/mike-jack.jpg",
@@ -258,6 +284,35 @@
       "article": "https://www.biography.com/athletes/serena-williams"
     },
     {
+      "category": "science",
+      "name": "margaret hamilton",
+      "img": "/images/margaret_hamilton.jpg",
+      "hints": [
+        {
+          "q": "Female, American computer scientist; led the Software Engineering Division at MIT labs",
+          "a": true
+        },
+        {
+          "q": "Born in 1936; received the US Presidential Medal of Freedom in 2016",
+          "a": true
+        },
+        {
+          "q": "Led the development of the guidance computer for the Apollo program",
+          "a": true
+        },
+        {
+          "q": "Was forced to study literature because women weren't allowed to study mathematics",
+          "a": false
+        },
+        { "q": "She coined the term 'software engineering'", "a": true },
+        {
+          "q": "She never married, and called mathematics her only love",
+          "a": false
+        }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)"
+    },
+    {
       "category": "music",
       "name": "fela kuti",
       "img": "/images/fela.jpg",
@@ -363,7 +418,29 @@
       ],
       "article": "https://en.wikipedia.org/wiki/Thomas_Sankara"
     },
-
+    {
+      "category": "science",
+      "name": "jake feinler",
+      "img": "/images/jake_feinler.jpg",
+      "hints": [
+        { "q": "American information scientist, born 1931", "a": true },
+        { "q": "Had the highest selling album in history", "a": false },
+        {
+          "q": "Was inducted into the Rock 'n' Roll Hall of Fame in 2012",
+          "a": false
+        },
+        { "q": "Worked on ARPANET and the Internet", "a": true },
+        {
+          "q": "She and her team created the Host Naming Registry (WHOIS) and the TLD naming convention (.com, .gov, .org)",
+          "a": true
+        },
+        {
+          "q": "A female, she was called 'Jake' because her sister couldn't pronounce her name properly",
+          "a": true
+        }
+      ],
+      "article": "https://en.wikipedia.org/wiki/Elizabeth_J._Feinler"
+    },
     {
       "category": "music",
       "name": "sunny ade",
